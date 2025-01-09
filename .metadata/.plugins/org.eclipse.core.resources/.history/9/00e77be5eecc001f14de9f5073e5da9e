@@ -1,0 +1,73 @@
+package com.vn2.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+//@Table(name="prod_DB")
+public class Product {
+	
+	@Id
+	@Column(name="Prod_ID")
+	@GeneratedValue
+	private int id;
+	
+	@Column(name="Prod_Name")
+	private String name;
+	
+	@Column(name="Prod_Price")
+	private double price;
+	
+    //Id (PK) based constructor
+	public Product(int id) {
+		super();
+		this.id = id;
+	}
+	
+	//Parameterized Constructor without ID(PK)
+	public Product(String name, double price) {
+		super();
+		this.name = name;
+		this.price = price;
+	}
+
+	//Parameterized Constructor with ID (PK)
+	public Product(int id, String name, double price) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + "]";
+	}
+}

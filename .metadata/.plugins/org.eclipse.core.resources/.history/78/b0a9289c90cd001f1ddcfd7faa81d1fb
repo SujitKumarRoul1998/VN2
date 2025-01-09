@@ -1,0 +1,47 @@
+package com.vn2;
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.vn2.entity.Blog;
+import com.vn2.entity.Comments;
+import com.vn2.repository.BlogRepository;
+import com.vn2.repository.CommentsRepository;
+
+@SpringBootApplication
+public class Application implements CommandLineRunner {
+
+	@Autowired
+	private BlogRepository blogRepository;
+	
+	@Autowired
+	private CommentsRepository commentsRepository;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		 Blog b=new Blog();
+		 b.setTitle("Jagannath Puri Temple Blog");
+		 b.setContent("Travelling ,Food, About City");
+		 b.setDescription("Explore All About The City And Puri Jagannath Temple");
+		
+		Comments c=new Comments();
+		         c.setMessage("Beautiful pic");
+		         c.setBlog(b);
+		        // b.setComments(c);
+		        b.setComments(Arrays.asList(c));
+		 System.out.println("1st Blog Save ");        
+	      blogRepository.save(b);
+	      blogRepository.findById(1);
+		
+	}
+
+}

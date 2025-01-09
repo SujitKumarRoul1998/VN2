@@ -1,0 +1,5 @@
+package com.vn2.controller;
+
+public class HelloController {
+
+}

@@ -1,0 +1,28 @@
+package com.vn2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.vn2.repository.Product;
+import com.vn2.repository.ProductRepo;
+
+@SpringBootApplication
+public class Application implements CommandLineRunner{
+	
+	@Autowired
+	private ProductRepo productRepo;
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		Product product=new Product(1, "Pen", 10.00);
+		productRepo.save(product);
+		
+	}
+
+}

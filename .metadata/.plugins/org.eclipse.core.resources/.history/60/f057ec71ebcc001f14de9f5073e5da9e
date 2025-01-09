@@ -1,0 +1,37 @@
+package com.vn2;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.vn2.entity.ProductRepo;
+import com.vn2.entity.Profile;
+import com.vn2.entity.User;
+import com.vn2.entity.UserRepo;
+
+@SpringBootApplication
+public class Application{
+	
+	/*
+	 * @Autowired private ProductRepo productRepo;
+	 */
+	
+	
+	
+	
+	/*
+	 * // @Override // public void run(String... args) throws Exception { // // /*
+	 * // * System.out.println("Save Element : "); Product product=new Product(1,
+	 * "Pen", // * 10.00); productRepo.save(product); productRepo.save(new
+	 * Product(2, "Pencil", // * 10.00)); productRepo.save(new Product(3, "Rubber",
+	 * 5.00)); // * productRepo.save(new Product(4, "colour", 20.00)); // * // *
+	 * System.out.println("Find Element By Specific ID : "); // * // *
+	 * Optional<Product> p = productRepo.findById(3); if(p.isPresent()) { // *
+	 * System.out.println(p.get()); }else { System.out.println("No Data Found"); }
+	 * // * // * System.out.println("Find All Element : "); // * // *
+	 * productRepo.findAll().forEach(System.out::println); //
+	 */	
+}
+
