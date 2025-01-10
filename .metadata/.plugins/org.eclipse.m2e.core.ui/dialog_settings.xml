@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\1_Spring_Core_DI_01"/>
 			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\1_Spring_Core_01"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -49,10 +50,14 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="1_Spring_Core_03"/>
+			<item value="1_Spring_Core_02"/>
+			<item value="1_Spring_Core_01"/>
+			<item value="0_Pratice_1_Spring_Core_01"/>
+			<item value="0_Pratice_Spring_Core_DI"/>
 			<item value="1_Spring_Core_AOP_02"/>
 			<item value="1_Spring_Core_DI_01"/>
 			<item value="1_Spring_Core_AOP_01"/>
-			<item value="1_Spring_Core_01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,9 +1,0 @@
-package com.vn2.entity;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.vn2.entity.Profile;
-
-public interface ProfileRepo extends JpaRepository<Profile, Integer>{
-
-}
