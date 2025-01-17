@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\1_Spring_Core_02"/>
+			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\01_JDBC_CODE"/>
 			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\1_Spring_Core_DI_01"/>
 			<item value="C:\Users\niran\OneDrive\Desktop\PROJECT\VN2\1_Spring_Core_01"/>
 		</list>
@@ -50,14 +52,21 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="1_Spring_Core_03"/>
+			<item value="1_Assignment_pratice"/>
+			<item value="1_Assignment"/>
+			<item value="1_SpringBoot_Core_02_Bean_Scope"/>
+			<item value="1_SpringBoot_Core_01_Autowiring_Bean"/>
+			<item value="1_SpringBoot_Core_01_Autowiring"/>
+			<item value="1_Spring_Core_06"/>
+			<item value="1_Spring_Core_05_XMLConfig"/>
+			<item value="1_Spring_Core_04"/>
+			<item value="1_Spring_Core_03_SpringLifeCycle"/>
 			<item value="1_Spring_Core_02"/>
 			<item value="1_Spring_Core_01"/>
+			<item value="01_HIBERNATE_CODE"/>
+			<item value="1_Spring_Core_03"/>
 			<item value="0_Pratice_1_Spring_Core_01"/>
 			<item value="0_Pratice_Spring_Core_DI"/>
-			<item value="1_Spring_Core_AOP_02"/>
-			<item value="1_Spring_Core_DI_01"/>
-			<item value="1_Spring_Core_AOP_01"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

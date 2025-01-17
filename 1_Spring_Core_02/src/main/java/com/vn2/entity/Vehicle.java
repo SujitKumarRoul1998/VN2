@@ -1,12 +1,15 @@
 package com.vn2.entity;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Vehicle {
 
-	
 	private String name;
 
 	public Vehicle() {
 		super();
+
 	}
 
 	public Vehicle(String name) {
@@ -25,6 +28,6 @@ public class Vehicle {
 	@Override
 	public String toString() {
 		return "Vehicle [name=" + name + "]";
-	}	
-	
+	}
+		
 }

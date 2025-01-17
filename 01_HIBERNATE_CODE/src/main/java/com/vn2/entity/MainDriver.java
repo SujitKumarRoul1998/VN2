@@ -17,10 +17,10 @@ public class MainDriver {
 		u.setPassword("sujitsuji");
 		
 		/*
-		 * Configuration cfg=new Configuration();
+		 * Configuration cfg=new Configuration("hibernate.cfg.xml");
 		 * cfg.configure(); 
-		 * SessionFactory sf=cfg.buildSessionFactory();
-		 * Session s=sf.openSession(); 
+		 * SessionFactory sf=cfg.buildSessionFactory(); //For One DataBase
+		 * Session s=sf.openSession();  // 
 		 * Transaction t=s.beginTransaction();
 		 * s.save(null);
 		 * t.commit();
